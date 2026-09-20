@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todo_app/constants/colors.dart';
+import 'package:todo_app/widgets/todo_item.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -27,6 +28,19 @@ class Home extends StatelessWidget {
                       ),
                     ),
                   ),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
+                  TodoItem(),
                 ],
               ),
             ),
